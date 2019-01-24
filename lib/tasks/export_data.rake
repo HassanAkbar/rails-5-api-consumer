@@ -14,7 +14,6 @@ namespace :export do
       puts "#{error_message}"
       logger.info "#{error_message}"
     end
-    binding.pry
 
     csv_contents.each.with_index(1) do |content_row, index|
       #Title,Published date,Author,Summary,Content,Status
