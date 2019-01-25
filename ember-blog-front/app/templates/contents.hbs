@@ -1,0 +1,20 @@
+{{#each model as |content|}}
+  <div id="ember-welcome-page-id-selector">
+    <div class="columns">
+      <div class="tomster">
+        <img src="ember-welcome-page/images/construction.png" alt="Under construction">
+      </div>
+      <div class="welcome">
+        <h2 id="title">{{content.title}}</h2>
+
+        <p><span>Title:</span> {{content.title}}</p>
+        <p><span>Published Date:</span> {{content.published_date}}</p>
+        <p><span>Author:</span> {{content.author}}</p>
+        <p><span>Summary:</span> {{content.summary}}</p>
+        <p><span>Content:</span> {{content.content}}</p>
+      </div>
+    </div>
+  </div>
+  <br>
+
+{{/each}}
