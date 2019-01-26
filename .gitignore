@@ -10,7 +10,7 @@
 tmp/
 
 # Ignore all logfiles and tempfiles.
-/log/development.log
+rails-awesome-api/log/development.log
 /tmp/*
 !/log/.keep
 !/tmp/.keep
