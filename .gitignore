@@ -9,6 +9,8 @@
 .DS_Store 
 tmp/
 
+rails-awesome-api/log/status_change_report.csv
+
 # Ignore all logfiles and tempfiles.
 rails-awesome-api/log/development.log
 /tmp/*
@@ -16,9 +18,19 @@ rails-awesome-api/log/development.log
 !/tmp/.keep
 
 # Ignore uploaded files in development
-/storage/*
+rails-awesome-api/storage/*
 
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+rails-awesome-api/config/master.key
+
+
+
+
+/ember-blog-front/dist/
+/ember-blog-front/tmp/
+
+# dependencies
+/ember-blog-front/bower_components/
+ember-blog-front/node_modules/
